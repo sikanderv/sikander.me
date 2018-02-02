@@ -1,5 +1,5 @@
 # sikander.me
-Welcome to my (very first) home on the Internet.
+Welcome to my home on the Internet.
 
 This website is hand-made with HTML5, CSS3, JavaScript, and JQuery with a little help from Twitter Bootstrap and Font Awesome projects.
 
