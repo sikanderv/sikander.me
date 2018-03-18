@@ -23,10 +23,10 @@ $fromName = 'Sikander from sikander.me';
 
 // an email address that will receive the email with the output of the form
 $sendToEmail = 'sikanderv@gmail.com';
-$sendToName = 'Sikki';
+$sendToName = 'Sikander Vempalli';
 
 // subject of the email
-$subject = 'First message from my website';
+$subject = 'Someone sent you a message via your website!';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
@@ -80,7 +80,7 @@ try
 
 
     if (!$mail->send()) {
-      throw new \Exception('I could not send the email.' . $mail->ErrorInfo);
+      throw new \Exception('Could not send the email.' . $mail->ErrorInfo);
     }
 
     // Send email
@@ -88,6 +88,7 @@ try
 
     $responseArray = array('type' => 'success', 'message' => $okMessage);
 }
+
 
 catch (\Exception $e)
 {
